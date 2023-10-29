@@ -19,3 +19,12 @@ Fill Password
 
 Click Button Login
     Click Element    //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+
+Fill Invalid Username
+    Wait Until Element Is Visible       //android.widget.TextView[@resource-id="com.example.myapplication:id/textView2" and @text="Enter username"]
+    Click Element    //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
+    Input Text    //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]    text="supportngendigital.com"
+
+Verify Login Failed
+    Wait Until Element Is Visible    //android.view.ViewGroup[@resource-id="com.example.myapplication:id/toolbar"]
+    
