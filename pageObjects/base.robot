@@ -4,7 +4,7 @@ Library            AppiumLibrary
 *** Variable ***
 ${REMOTE_URL}               http://127.0.0.1:4723/wd/hub
 ${PLATFORM_NAME}            Android
-${PLATFORM_VERSION}         13
+${PLATFORM_VERSION}         14
 *** Keywords ***
 Open Flight Application
     Open Application        ${REMOTE_URL}       

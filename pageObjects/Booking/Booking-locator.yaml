@@ -1,0 +1,27 @@
+BookButton: //android.widget.Button[@resource-id="com.example.myapplication:id/book"]
+LogoApp: //android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]
+OneWay: //android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]
+Round: //android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]
+FromCity: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]
+ToCity: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]
+Class: //android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]
+StartDate: //android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]
+EndDate: //android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]
+Flight: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]
+FlightandHotel: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]
+QuarterDay: //android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]
+Booking: //android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]
+Toronto: //android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]
+ListViewFrom: //android.widget.ListView
+Otawa: //android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]
+ListViewTo: //android.widget.ListView
+Business: //android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]
+ListViewClass: //android.widget.ListView
+PickStart: //android.view.View[@content-desc="01 August 2019"]
+StartOk: //android.widget.Button[@resource-id="android:id/button1"]
+PickEnd: //android.view.View[@content-desc="22 August 2019"]
+EndOK: //android.widget.Button[@resource-id="android:id/button1"]
+StartReturn: //android.widget.Button[@text="Start/Return"]
+Price: //android.widget.Button[@resource-id="com.example.myapplication:id/price2"]
+Confirm: //android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]
+
